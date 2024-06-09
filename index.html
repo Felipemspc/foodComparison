@@ -17,17 +17,21 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse justify-content-between " id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-2">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Services</a>
                         </li>
+                        <ul class="orangeDots"><li></li></ul>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Portfolio</a>
                         </li>
+                        <ul class="orangeDots"><li></li></ul>
+                        
                         <li class="nav-item">
                             <a class="nav-link" href="#">Blog</a>
                         </li>
+                        <ul class="orangeDots"><li></li></ul>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact us</a>
                         </li>
@@ -37,12 +41,15 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Services</a>
                         </li>
+                        <ul class="orangeDots"><li></li></ul>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Portfolio</a>
                         </li>
+                        <ul class="orangeDots"><li></li></ul>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Blog</a>
                         </li>
+                        <ul class="orangeDots"><li></li></ul>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact us</a>
                         </li>
@@ -51,17 +58,71 @@
             </div>
         </nav>
 
-        <main class="d-flex justify-content-center align-items-center flex-column py-5">
-            <div class="img-fluid">
-                <img src="dog1.jpg" alt="Dog" class="img-fluid">
-            </div>
-            <div>
-              
+        <main class="d-flex justify-content-center align-items-center flex-column py-5 position-relative">
+            <div class="img-container">
+                <img src="dog1.jpg" alt="Dog" class="img-fluid" width="1500px">
+                <div class="data-element">
+                    <div class="option">
+                        <label for="animalType">Animal Type:</label>
+                        <select id="animalType" class="form-select">
+                            <option>Dog</option>
+                            <option>Cat</option>
+                            <option>Bird</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="option">
+                        <label for="foodType">Food Type:</label>
+                        <select id="foodType" class="form-select">
+                            <option>Dry</option>
+                            <option>Wet</option>
+                            <option>Raw</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="option">
+                        <label for="age">Age of the Pet:</label>
+                        <select id="age" class="form-select">
+                            <option>Puppy/Kitten</option>
+                            <option>Adult</option>
+                            <option>Senior</option>
+                        </select>
+                    </div>
+                    <div class="option">
+                        <label for="lastOption">Last Option:</label>
+                        <select id="lastOption" class="form-select">
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                            <option>Option 3</option>
+                        </select>
+                    </div>
+                </div>
             </div>
         </main>
+        
+        <div class="container" id="infoRacoes">
+            <div class="box">
+                
+            </div>
 
-        <footer>
-            <p>&copy; Rafael Matos</p>
+        </div>
+        <div class="divider"></div>
+        <footer class="d-flex justify-content-center gap-3 align-items-center">
+            
+            <div>
+                <p class="termsCondition">Terms & Condition </p>
+             </div>  
+             <div>
+              <p class="footerTraco"> | </p> 
+            </div>
+                
+           
+            <div>
+            <p class="privacyPolicy"> Privacy Policy</p>
+            </div>
+           
+
+           
         </footer>
     </div>
 

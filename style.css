@@ -1,22 +1,24 @@
-
-
 body {
     background-color: #F7F3EB;
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    color: #616161;
+    color: #463933;
 }
 
 .container-fluid {
-    padding: 0;
+    padding: 3px;
 }
 
 header {
-    
     height: auto;
     padding: 10px 0;
 }
 
+.orangeDots {
+    list-style: disc;
+    font-size: 20px;
+    color: #ec9343;
+}
 
 .navbar .nav-link {
     font-weight: 600;
@@ -24,7 +26,12 @@ header {
     color: #463933;
     text-transform: uppercase;
     font-size: 12px;
-    
+}
+
+.nav-link:hover {
+    transition: color 0.3s ease;
+    cursor: pointer;
+    color: #ec9343;
 }
 
 .logo h1 {
@@ -32,6 +39,7 @@ header {
 }
 
 main {
+    position: relative;
     height: auto;
     background-color: #F7F3EB;
     width: 100%;
@@ -40,23 +48,54 @@ main {
 }
 
 footer {
+    
     text-align: center;
     background-color: #F7F3EB;
-    color: rgb(252, 138, 31);
-    padding: 10px 0;
+    color: #666666;
+    padding: 80px 0;
+}
+
+.termsCondition:hover {
+    transition: color 0.3s ease;
+    cursor: pointer;
+    color: #ec9343;
+}
+
+.privacyPolicy:hover {
+    transition: color 0.3s ease;
+    cursor: pointer;
+    color: #ec9343;
+}
+
+.footerTraco {
+    padding: 10px;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
 }
 
 .img-fluid {
     max-width: 100%;
     height: auto;
-    border-radius: 25px;
+    border-radius: 30px;
+    margin-top: -20px;
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
-    .navbar-nav {
-        text-align: center;
-        
-    }
+.data-element {
+    position: absolute;
+    bottom: -70px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(236, 147, 67, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    color: #fff;
+    font-family: Laila, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    width: 90%; /* Adjust as needed */
     
 }
