@@ -115,21 +115,62 @@ footer {
 }
 
 
+
 /* Media Queries */
+@media(min-width:320px){
+    #dog2Img{
+        
+        transform: translateX(-30px);
+         width: 325px;  
+     }
+}
+@media(min-width:375px){
+    #dog2Img{
+        
+        transform: translateX(-25px);
+         width: 380px;  
+     }
+}
+@media(min-width:425px){
+    #dog2Img{
+        
+        transform: translateX(-60px);
+         width: 470px;  
+     }
+}
+
 @media (max-width: 768px) {
     .navbar-nav {
         text-align: center;
         
     }
+   
+   
     .data-element {
-        bottom: -500px;
+        
+        bottom: -450px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         font-size: 15px;
+        width: 117%;
+        height: 500px;
+        border-radius: 50px;
+        
     }
+    #dog1Img{
+        display: none;
+    }
+   
+    
     .tracoForm{
-        visibility: collapse;
+        display: none;
+    }
+}
+
+@media (min-width: 1024px){
+    #dog2Img{
+        display: none;
     }
 }
