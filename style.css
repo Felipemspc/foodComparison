@@ -120,14 +120,14 @@ footer {
 @media(min-width:320px){
     #dog2Img{
         
-        transform: translateX(-30px);
+       
          width: 325px;  
      }
 }
 @media(min-width:375px){
     #dog2Img{
         
-        transform: translateX(-25px);
+        transform: translateX(-20px);
          width: 380px;  
      }
 }
