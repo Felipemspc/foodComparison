@@ -138,6 +138,13 @@ footer {
          width: 470px;  
      }
 }
+@media(min-width:768px){
+    #dog2Img{
+        
+        transform: translateX(-30px);
+         width: 800px;  
+     }
+}
 
 @media (max-width: 768px) {
     .navbar-nav {
@@ -162,6 +169,7 @@ footer {
     #dog1Img{
         display: none;
     }
+    
    
     
     .tracoForm{
@@ -170,7 +178,8 @@ footer {
 }
 
 @media (min-width: 1024px){
+    
     #dog2Img{
-        display: none;
+     width: 0px;
     }
 }
