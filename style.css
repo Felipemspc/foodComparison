@@ -118,35 +118,31 @@ footer {
 
 
 /* Media Queries */
-@media(min-width:320px){
+@media(max-width: 320px){
+    .data-element {
+        position: absolute;
+        bottom: -450px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        width: 100% !important;
+        border-radius: 50px;
+       
+        
+        
+    }
     #dog2Img{
         transform: translateX(-25px);
-       
-         width: 350px;  
-     }
-     
+        width: 350px;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
-@media(min-width:375px){
-    #dog2Img{
-        
-        transform: translateX(-20px);
-         width: 380px;  
-     }
-}
-@media(min-width:425px){
-    #dog2Img{
-        
-        transform: translateX(-60px);
-         width: 470px;  
-     }
-}
-@media(min-width:768px){
-    #dog2Img{
-        
-        transform: translateX(-30px);
-         width: 800px;  
-     }
-}
+
 
 @media (max-width: 768px) {
     .navbar-nav {
@@ -180,9 +176,8 @@ footer {
     }
 }
 
-@media (min-width: 1024px){
-    
+@media(min-width:769px){
     #dog2Img{
-     width: 0px;
+        display: none !important;
     }
 }
