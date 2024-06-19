@@ -118,7 +118,7 @@ footer {
 
 
 /* Media Queries */
-@media(max-width: 320px){
+/** @media(max-width: 320px){
     .data-element {
         position: absolute;
         bottom: -450px !important;
@@ -143,7 +143,7 @@ footer {
     }
 }
 
-
+**/
 @media (max-width: 768px) {
     .navbar-nav {
         text-align: center;
@@ -166,10 +166,14 @@ footer {
         
     }
     #dog1Img{
-        display: none;
+        
+        border-radius: 0px;
+
     }
     
-   
+   main{
+    padding: 0px;
+   }
     
     .tracoForm{
         display: none;
