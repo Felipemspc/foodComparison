@@ -1,142 +1,131 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 body {
-    background-color: #F7F3EB;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    color: #463933;
+  background-color: #f7f3eb;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: #463933;
 }
 
 .container-fluid {
-    padding: 3px;
+  padding: 3px;
 }
 
 header {
-    height: auto;
-    padding: 10px 0;
+  height: auto;
+  padding: 10px 0;
 }
 
 .orangeDots {
-    list-style: disc;
-    font-size: 20px;
-    color: #ec9343;
+  list-style: disc;
+  font-size: 20px;
+  color: #ec9343;
 }
 
 .navbar .nav-link {
-    font-weight: 600;
-    font-family: Laila, sans-serif; 
-    color: #463933;
-    text-transform: uppercase;
-    font-size: 12px;
+  font-weight: 600;
+  font-family: Laila, sans-serif;
+  color: #463933;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 .nav-link:hover {
-    transition: color 0.3s ease;
-    cursor: pointer;
-    color: #ec9343;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  color: #ec9343;
 }
 
 .logo h1 {
-    margin: 0;
+  margin: 0;
 }
 
 main {
-    position: relative;
-    height: auto;
-    background-color: #F7F3EB;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
+  position: relative;
+  height: auto;
+  background-color: #f7f3eb;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
 }
 
 footer {
-    
-    text-align: center;
-    background-color: #F7F3EB;
-    color: #666666;
-    
+  text-align: center;
+  background-color: #f7f3eb;
+  color: #666666;
 }
 
 .termsCondition:hover {
-    transition: color 0.3s ease;
-    cursor: pointer;
-    color: #ec9343;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  color: #ec9343;
 }
 
 .privacyPolicy:hover {
-    transition: color 0.3s ease;
-    cursor: pointer;
-    color: #ec9343;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  color: #ec9343;
 }
-.tracoForm{
-    width: 0.5px;
-    height: 80px;
-    background-color: aliceblue;
-    margin: 20px 0; 
+.tracoForm {
+  width: 0.5px;
+  height: 80px;
+  background-color: aliceblue;
+  margin: 20px 0;
 }
 .footerTraco {
-    padding: 10px;
+  padding: 10px;
 }
 
-
 .img-container {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: auto;
-    border-radius: 30px;
-    margin-top: -20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+  margin-top: -20px;
 }
 .divider {
-    width: 100%;
-    height: 1px;
-    background-color: #ccc;
-    margin: 20px 0;
-    
-    
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
 }
 
 .data-element {
-    position: absolute;
-    bottom: -40px; /* ajustar se precisar */
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(236, 147, 67, 0.9);
-    padding: 20px;
-    border-radius: 15px;
-    color: #fff;
-    font-family: Laila, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    text-align: center;
-    height: 20%;
-    width: 90%; /* Ajustar se precisar */
-    
-    
-    
+  position: absolute;
+  bottom: -40px; /* ajustar se precisar */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(236, 147, 67, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  color: #fff;
+  font-family: Laila, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  height: 20%;
+  width: 90%; /* Ajustar se precisar */
 }
 .data-element::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('PawsPNG.avif') no-repeat center center;
-    background-size: cover;
-    border-radius: 15px;
-    z-index: -1;
-    opacity: 0.07; /* Ajustar opacidade se precisar.... */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("PawsPNG.avif") no-repeat center center;
+  background-size: cover;
+  border-radius: 15px;
+  z-index: -1;
+  opacity: 0.07; /* Ajustar opacidade se precisar.... */
 }
-
-
-
 
 /* Media Queries */
 /** @media(max-width: 320px){
@@ -166,58 +155,51 @@ footer {
 
 **/
 @media (max-width: 768px) {
-    .navbar-nav {
-        text-align: center;
-        
-    }
-    #logo{
-        display: none;
-    }
-   
-   
-    .data-element {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: relative;
-        
-        
-        background-color: rgba(236, 147, 67, 0.9);
-        padding: 20px;
-        border-radius: 15px;
-        color: #fff;
-        font-family: Laila, sans-serif;
-        font-size: 16px;
-        font-weight: 600;
-        text-align: center;
-        height: fit-content;
-        width: 100%; /* Ajustar se precisar */
-        
-    }
-    #dog1Img{
-        
-        border-radius: 0px;
+  .navbar-nav {
+    text-align: center;
+  }
+  #logo {
+    display: none;
+  }
 
-    }
+  .data-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(236, 147, 67, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    color: #fff;
+    font-family: Laila, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    height: fit-content;
+    width: 100%; /* Ajustar se precisar */
     
-   main{
+  }
+  #dog1Img {
+    border-radius: 0px;
+  }
+
+  main {
     padding: 0px;
-   }
-    
-    .tracoForm{
-        display: none;
-    }
+  }
+
+  .tracoForm {
+    display: none;
+  }
 }
 
-@media(min-width:769px){
-   
+@media (min-width: 769px) {
 }
-@media(min-width:992px){
-    #logoResp{
-        display: none;
-    }
-    #orangeDotService{
-        display: none;
-    }
+@media (min-width: 992px) {
+  #logoResp {
+    display: none;
+  }
+  #orangeDotService {
+    display: none;
+  }
 }
