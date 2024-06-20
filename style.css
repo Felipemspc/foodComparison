@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body {
     background-color: #F7F3EB;
     font-family: Roboto, sans-serif;
@@ -99,7 +104,7 @@ footer {
 
 .data-element {
     position: absolute;
-    bottom: -70px; /* Adjust as needed */
+    bottom: -40px; /* Adjust as needed */
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(236, 147, 67, 0.9);
@@ -152,17 +157,23 @@ footer {
    
    
     .data-element {
-        
-        bottom: -450px;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        font-size: 15px;
-        width: 117%;
-        height: 500px;
-        border-radius: 50px;
+        flex-direction: column;
+        position: relative;
         
+        
+        background-color: rgba(236, 147, 67, 0.9);
+        padding: 20px;
+        border-radius: 15px;
+        color: #fff;
+        font-family: Laila, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        height: fit-content;
+        width: 100%; /* Adjust as needed */
         
     }
     #dog1Img{
@@ -183,5 +194,11 @@ footer {
 @media(min-width:769px){
     #dog2Img{
         display: none !important;
+    }
+    
+}
+@media(min-width:992px){
+    #logoResp{
+        display: none;
     }
 }
