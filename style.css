@@ -11,7 +11,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3px;
+  padding: 0px;
 }
 
 header {
@@ -42,7 +42,10 @@ header {
 .logo h1 {
   margin: 0;
 }
-
+#head{
+  
+  padding: 0 25px;
+}
 main {
   position: relative;
   height: auto;
@@ -170,15 +173,15 @@ footer {
     align-items: center;
     flex-direction: column;
     position: relative;
-    background-color: rgba(236, 147, 67, 0.9);
+    background-color: rgb(236, 146, 67);
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 25px;
     color: #fff;
     font-family: Laila, sans-serif;
     font-size: 16px;
     font-weight: 600;
     text-align: center;
-    height: fit-content;
+    height: 400px;
     width: 100%; /* Ajustar se precisar */
     margin-top: -70px;
 
@@ -196,7 +199,12 @@ footer {
     display: none;
   }
 }
-
+@media (min-width:767px){
+  .data-element{
+    flex-direction: row;
+    height: fit-content;
+  }
+}
 @media (max-width: 992px) {
   ul{
     display: none;
